@@ -15,16 +15,16 @@ function App() {
         <Header />
 
         <Switch>
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-
-          <Route exact path="/about">
+          <Route path="/about">
             <AboutPage />
           </Route>
 
-          <Route exact path="/projects">
+          <Route path="/projects">
             <ProjectPage />
+          </Route>
+
+          <Route path="/">
+            <LandingPage />
           </Route>
         </Switch>
 
