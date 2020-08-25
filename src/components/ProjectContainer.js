@@ -20,12 +20,18 @@ const ProjectContainer = (props) => {
           ))}
         </ul>
         <div className="top-margin center">
-          <button className="waves-effect waves-light btn white lighten-5 grey-text text-darken-3">
+          <a
+            className="waves-effect waves-light btn white lighten-5 grey-text text-darken-3"
+            href={props.repo}
+          >
             GitHub Repo
-          </button>
-          <button className="waves-effect waves-light btn white lighten-5 grey-text text-darken-3">
+          </a>
+          <a
+            className="waves-effect waves-light btn white lighten-5 grey-text text-darken-3"
+            href={props.app}
+          >
             Deployed App
-          </button>
+          </a>
         </div>
       </div>
     </li>

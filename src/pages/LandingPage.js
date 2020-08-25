@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import parallax1 from "../images/parallax-1.jpg";
 import parallax2 from "../images/parallax-2.jpg";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const LandingPage = () => {
+  useEffect(() => {
+    M.AutoInit();
+  }, []);
   return (
     <div>
       <div className="parallax-container">

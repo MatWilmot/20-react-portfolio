@@ -9,12 +9,12 @@ const Header = () => {
           <Link to="/" className="brand-logo grey-text text-darken-3">
             Mat Wilmot
           </Link>
-          <Link
+          <a
             data-target="mobile-demo"
             className="sidenav-trigger grey-text text-darken-3"
           >
-            <i class="material-icons">menu</i>
-          </Link>
+            <i className="material-icons">menu</i>
+          </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
               <Link to="/about" className="grey-text text-darken-3">

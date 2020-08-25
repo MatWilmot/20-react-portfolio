@@ -8,10 +8,10 @@ const ProjectPage = () => {
   }, []);
 
   return (
-    <div class="container top-margin center">
-      <div class="row">
-        <div class="col s12 xl10 offset-xl1">
-          <ul class="collapsible grey lighten-5">
+    <div className="container top-margin center">
+      <div className="row">
+        <div className="col s12 xl10 offset-xl1">
+          <ul className="collapsible grey lighten-5">
             <ProjectContainer
               icon="book"
               title="Book It - The Social Bucket List"
@@ -47,7 +47,7 @@ const ProjectPage = () => {
             <ProjectContainer
               icon="cloud"
               title="Global Weather Application"
-              description="This weather application was created as a homework project for class. We were challenged to use the OpenWeatherMap API and Bootstrap to create a weather dashboard that could search any city or town."
+              description="This weather application was created as a homework project for className. We were challenged to use the OpenWeatherMap API and Bootstrap to create a weather dashboard that could search any city or town."
               technologies={[
                 "JavaScript / jQuery / ajax",
                 "Local Storage",
@@ -60,7 +60,7 @@ const ProjectPage = () => {
             <ProjectContainer
               icon="videogame_asset"
               title="Video Game Quiz"
-              description="This video game quiz was created as a homework project for class. It uses JavaScript to dynamically update the contents of the screen between questions. High scores are sorted from local storage by score into an array and used for a leader board."
+              description="This video game quiz was created as a homework project for className. It uses JavaScript to dynamically update the contents of the screen between questions. High scores are sorted from local storage by score into an array and used for a leader board."
               technologies={["JavaScript / jQuery / ajax", "Local Storage"]}
               repo="https://github.com/MatWilmot/Homework-04-Quiz"
               app="https://matwilmot.github.io/Homework-04-Quiz/index.html"
@@ -69,7 +69,7 @@ const ProjectPage = () => {
             <ProjectContainer
               icon="lock_outline"
               title="Password Generator"
-              description="This super simple password generator was an early homework project designed to test some concepts I'd been learning in class. It takes given parameters and generates a random string based on them."
+              description="This super simple password generator was an early homework project designed to test some concepts I'd been learning in className. It takes given parameters and generates a random string based on them."
               technologies={["JavaScript"]}
               repo="https://github.com/MatWilmot/homework-03-password-generator"
               app="https://matwilmot.github.io/homework-03-password-generator/"
