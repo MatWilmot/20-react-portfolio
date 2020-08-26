@@ -82,14 +82,3 @@ const ProjectPage = () => {
 };
 
 export default ProjectPage;
-
-{
-  /* <ProjectContainer
-icon=""
-title=""
-description=""
-technologies={[]}
-repo="URL HERE"
-app="URL HERE"
-/> */
-}

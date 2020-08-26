@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const Header = () => {
+  useEffect(() => {
+    M.AutoInit();
+  }, []);
   return (
     <div>
       <nav className="grey lighten-5">
