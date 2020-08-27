@@ -42,12 +42,12 @@ const AboutPage = () => {
           <PillButton bgcol="lightgrey" col="black" title="MySQL" />
           <PillButton bgcol="lightgrey" col="black" title="Sequelize" />
           <PillButton bgcol="lightgrey" col="black" title="MongoDB" />
+          <PillButton bgcol="lightgrey" col="black" title="Mongoose" />
           <PillButton bgcol="lightgrey" col="black" title="jQuery" />
           <PillButton bgcol="lightgrey" col="black" title="Passport" />
           <PillButton bgcol="lightgrey" col="black" title="bcryptjs" />
           <PillButton bgcol="lightgrey" col="black" title="Express-sessions" />
           <PillButton bgcol="lightgrey" col="black" title="Inquirer" />
-          <PillButton bgcol="lightgrey" col="black" title="Axios" />
         </div>
       </div>
     </div>
