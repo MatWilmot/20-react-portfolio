@@ -47,6 +47,7 @@ const AboutPage = () => {
           <PillButton bgcol="lightgrey" col="black" title="Passport" />
           <PillButton bgcol="lightgrey" col="black" title="bcryptjs" />
           <PillButton bgcol="lightgrey" col="black" title="Express-sessions" />
+          <PillButton bgcol="lightgrey" col="black" title="JWT" />
           <PillButton bgcol="lightgrey" col="black" title="Inquirer" />
         </div>
       </div>
