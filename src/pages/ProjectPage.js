@@ -13,6 +13,28 @@ const ProjectPage = () => {
         <div className="col s12 xl10 offset-xl1">
           <ul className="collapsible grey lighten-5">
             <ProjectContainer
+              icon="directions_bike"
+              title="MERN Health Tracker"
+              description={
+                "The 'My Exercise Rest & Nutrition' (MERN) health tracker was created as a final project for my full stack web development classes. It uses the full MERN stack (MySQL, Express, React, Node) and utilized JWT for user authentication."
+              }
+              technologies={[
+                "JavaScript",
+                "React",
+                "JWT",
+                "Material UI",
+                "axios",
+                "bcryptjs",
+                "dotenv",
+                "Express",
+                "passport / passport-local",
+                "Sequelize / sequelize-cli",
+              ]}
+              repo="https://github.com/MatWilmot/health_tracker"
+              app="https://group4-mern-tracker.herokuapp.com/"
+            />
+
+            <ProjectContainer
               icon="book"
               title="Book It - The Social Bucket List"
               description="Book It was created as a group project in class. The brief was to use bcrypt, passport, and MySQL to power a website that can display user-specific information."
