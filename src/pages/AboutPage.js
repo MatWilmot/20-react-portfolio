@@ -23,10 +23,10 @@ const AboutPage = () => {
               from Manchester, England.
             </h4>
             <p className="flow-text">
-              Motorcyclist. Gamer. Coder. Graduating UC Berkeley Extension's
-              Full-Stack Web Development boot-camp, focusing on the MERN
-              (MongoDB / MySQL, Express, React, Node) stack, in September and
-              currently looking for employment opportunities!
+              Motorcyclist. Gamer. Coder. Graduate from UC Berkeley Extension's
+              Full-Stack Web Development course, focusing on the MERN (MongoDB /
+              MySQL, Express, React, Node) stack and currently looking for
+              employment opportunities!
             </p>
           </div>
         </div>
